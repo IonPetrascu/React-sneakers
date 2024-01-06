@@ -1,13 +1,18 @@
-import React from 'react'
+import React from "react";
+import AppContext from "../context";
 
-function EmptyCart({ onClose }) {
-    return (
-        <div className='empty-cart'>
-            <h3>Пустая корзина</h3>
-            <img src="/img/emptyCart.png" alt="cart" />
-            <button onClick={() => onClose()} className='greenButton'>Вернуться обратно</button>
-        </div>
-    )
+function EmptyCart({ image, title, description }) {
+  const { setCartOpen } = React.useContext(AppContext);
+  return (
+    <div className="empty-cart">
+      <img src={image} alt="cart" />
+      <h3>{title}</h3>
+      <p style={{textAlign:'center'}}>{description}</p>
+      <button onClick={() => setCartOpen(false)} className="greenButton">
+        Вернуться обратно
+      </button>
+    </div>
+  );
 }
 
-export default EmptyCart
+export default EmptyCart;
