@@ -109,7 +109,7 @@ function App() {
         <Header onClickCart={() => setCartOpen(true)} />
         <Routes>
           <Route
-            path=""
+            path="react-snikers"
             element={
               <Home
                 cartItems={cartItems}

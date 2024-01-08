@@ -7,7 +7,7 @@ function Header({ onClickCart }) {
 
   return (
     <header className="d-flex justify-between align-center p-40">
-      <Link to="" className="d-flex align-center">
+      <Link to="react-snikers" className="d-flex align-center">
         <img width="40" height="40" src="img/logo.png" />
         <div className="ml-15">
           <h3 className="text-uppercase">React Sneakers</h3>
