@@ -34,7 +34,7 @@ function Driwer({ items = [], onRemoveItem, setOrders }) {
           <img
             onClick={() => setCartOpen(false)}
             className="removeBtn cu-p"
-            src="/img/btn-remove.svg"
+            src="img/btn-remove.svg"
             alt="Remove"
           />
         </h2>
@@ -57,7 +57,7 @@ function Driwer({ items = [], onRemoveItem, setOrders }) {
                   <img
                     onClick={() => onRemoveItem(item.id)}
                     className="removeBtn"
-                    src="/img/btn-remove.svg"
+                    src="img/btn-remove.svg"
                     alt="Remove"
                   />
                 </div>
@@ -78,7 +78,7 @@ function Driwer({ items = [], onRemoveItem, setOrders }) {
               </ul>
               <button onClick={onClickOrder} className="greenButton">
                 Оформить заказ
-                <img src="./img/arrow.svg" alt="arrow" />
+                <img src="img/arrow.svg" alt="arrow" />
               </button>
             </div>
           </>
@@ -91,7 +91,7 @@ function Driwer({ items = [], onRemoveItem, setOrders }) {
                 : "Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ."
             }
             image={
-              isOrderComplete ? "/img/completeOrder.png" : "/img/emptyCart.png"
+              isOrderComplete ? "img/completeOrder.png" : "img/emptyCart.png"
             }
           />
         )}

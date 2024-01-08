@@ -41,12 +41,12 @@ function Home({
         )}
 
         <div className="search-block d-flex">
-          <img src="/img/search.svg" alt="Search" />
+          <img src="img/search.svg" alt="Search" />
           {searchValue && (
             <img
               onClick={() => setSearchValue("")}
               className="search-clear"
-              src="/img/btn-remove.svg"
+              src="img/btn-remove.svg"
               alt="clear"
             />
           )}

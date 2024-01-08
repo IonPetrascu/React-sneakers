@@ -1,5 +1,6 @@
 {
   "name": "form",
+  "homepage":"https://ionpetrascu.github.io/react-snikers",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.3",
     "formik": "^2.4.5",
+    "gh-pages": "^6.1.1",
     "macro-css": "^1.0.5",
     "react": "^18.2.0",
     "react-content-loader": "^6.2.1",
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
