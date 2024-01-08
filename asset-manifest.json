@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-snikers/static/css/main.c56b07a8.css",
-    "main.js": "/react-snikers/static/js/main.dc510b11.js",
+    "main.js": "/react-snikers/static/js/main.a44acc2b.js",
     "index.html": "/react-snikers/index.html",
     "main.c56b07a8.css.map": "/react-snikers/static/css/main.c56b07a8.css.map",
-    "main.dc510b11.js.map": "/react-snikers/static/js/main.dc510b11.js.map"
+    "main.a44acc2b.js.map": "/react-snikers/static/js/main.a44acc2b.js.map"
   },
   "entrypoints": [
     "static/css/main.c56b07a8.css",
-    "static/js/main.dc510b11.js"
+    "static/js/main.a44acc2b.js"
   ]
 }
