@@ -124,10 +124,10 @@ function App() {
             }
           ></Route>
           <Route
-            path="Favorites"
+            path="react-snikers/favorites"
             element={<Favorites onAddToFavorite={onAddToFavorite} />}
           ></Route>
-          <Route path="orders" element={<Orders orders={orders} />}></Route>
+          <Route path="react-snikers/orders" element={<Orders orders={orders} />}></Route>
         </Routes>
       </div>
     </AppContext.Provider>
