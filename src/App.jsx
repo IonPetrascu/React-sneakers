@@ -109,7 +109,7 @@ function App() {
         <Header onClickCart={() => setCartOpen(true)} />
         <Routes>
           <Route
-            path="react-snikers"
+            path="react-sneakers"
             element={
               <Home
                 cartItems={cartItems}
@@ -124,10 +124,10 @@ function App() {
             }
           ></Route>
           <Route
-            path="react-snikers/favorites"
+            path="react-sneakers/favorites"
             element={<Favorites onAddToFavorite={onAddToFavorite} />}
           ></Route>
-          <Route path="react-snikers/orders" element={<Orders orders={orders} />}></Route>
+          <Route path="react-sneakers/orders" element={<Orders orders={orders} />}></Route>
         </Routes>
       </div>
     </AppContext.Provider>
